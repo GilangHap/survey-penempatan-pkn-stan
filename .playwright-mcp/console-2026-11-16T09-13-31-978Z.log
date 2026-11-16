@@ -1,0 +1,622 @@
+[ 2450304ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin:1
+[ 2450436ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16703
+[ 2450496ms] Error: ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1
+
+
+    at Object.getCompilationErrors (file://D:\GILANG\Kemenkeu\survey\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1559:33)
+    at DevBundlerService.getCompilationError (file://D:\GILANG\Kemenkeu\survey\node_modules\next\dist\server\lib\dev-bundler-service.js:66:55)
+    at DevServer.getCompilationError (file://D:\GILANG\Kemenkeu\survey\node_modules\next\dist\server\dev\next-dev-server.js:695:42)
+    at DevServer.findPageComponents (file://D:\GILANG\Kemenkeu\survey\node_modules\next\dist\server\dev\next-dev-server.js:665:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\GILANG\Kemenkeu\survey\node_modules\next\dist\server\base-server.js:2068:26)
+[ 2450498ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745
+[ 2450571ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450625ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450894ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450894ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450894ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450894ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2450894ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2456618ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2458086ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2458298ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2458645ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2458753ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2458934ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2459086ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2459190ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2459253ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2459345ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |     "name":  "survey",
+  3 |     "version":  "0.1.0",
+  4 |     "private":  true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2553529ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745
+[ 2553772ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2553772ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2560492ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2560492ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562369ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562369ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562444ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562444ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562520ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562520ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562581ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562581ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562765ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2562765ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563325ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563326ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563867ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563867ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563944ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563945ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563987ms] [ERROR] ./package.json:1:1
+Error: Error parsing package.json file
+> 1 | ﻿{
+    | ^
+  2 |   "name": "survey",
+  3 |   "version": "0.1.0",
+  4 |   "private": true,
+
+package.json is not parseable: invalid JSON: expected value at line 1 column 1 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2563987ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2572601ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2572646ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2572675ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745
+[ 2574472ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2574532ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2574577ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2574624ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2574809ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2574976ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2575565ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2575610ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2627429ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2650232ms] [ERROR] ./app/globals.css
+Error: Error evaluating Node.js code
+SyntaxError: D:\GILANG\Kemenkeu\survey\package.json (directory description file): SyntaxError: Unexpected token '﻿', "﻿{
+  "name"... is not valid JSON
+  (from D:\GILANG\Kemenkeu\survey\node_modules\@tailwindcss\turbopack\dist\index.js)
+    [at <anonymous>]
+    [at Object.<anonymous> (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:788:26)]
+    [at CacheBackend.provideSync (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:458:67)]
+    [at SyncAsyncFileSystemDecorator.readJson (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\SyncAsyncFileSystemDecorator.js:221:29)]
+    [at iterFilename (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:126:24)]
+    [at next (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:35:3)]
+    [at forEachBail (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:49:9)]
+    [at findDescriptionFile (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:200:3)]
+    [at onLevelDone (D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:193:10)]
+    [at D:\GILANG\Kemenkeu\survey\node_modules\enhanced-resolve\lib\forEachBail.js:39:13] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:1802
+[ 2651266ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_16lnmlosr3ca7._.js:1014
+[ 2653223ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:745
+[ 2657358ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
+[ 2657492ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:761
