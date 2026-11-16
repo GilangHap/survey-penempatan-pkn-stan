@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { NextResponse } from "next/server";
 import { parseSubmission, type Submission } from "@/lib/survey";
-import { listSubmissions, saveSubmission } from "@/lib/store";
+import { saveSubmission } from "@/lib/store";
 
 async function forwardToSheets(submission: Submission) {
   const url = process.env.SHEETS_WEBHOOK_URL;
@@ -30,20 +30,19 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: parsed.error }, { status: 400 });
   }
 
-  const existing = await listSubmissions();
-  if (existing.some((s) => s.npm.toLowerCase() === parsed.value.npm.toLowerCase())) {
-    return NextResponse.json(
-      { error: "NPM ini sudah pernah mengisi survei." },
-      { status: 409 },
-    );
-  }
-
   const submission: Submission = {
     id: randomUUID(),
     submittedAt: new Date().toISOString(),
     ...parsed.value,
   };
-  await saveSubmission(submission);
+
+  const result = await saveSubmission(submission);
+  if (result === "duplicate") {
+    return NextResponse.json(
+      { error: "NPM ini sudah pernah mengisi survei." },
+      { status: 409 },
+    );
+  }
   await forwardToSheets(submission);
 
   return NextResponse.json({ ok: true });

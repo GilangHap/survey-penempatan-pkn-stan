@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Mark } from "@/components/Shell";
 
 export default function AdminLoginPage() {
   const router = useRouter();
@@ -29,32 +31,61 @@ export default function AdminLoginPage() {
   }
 
   return (
-    <main className="flex flex-1 items-center justify-center px-4 py-16">
-      <form
-        onSubmit={submit}
-        className="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
-      >
-        <h1 className="text-lg font-semibold text-slate-900">Rekap Survei</h1>
-        <p className="mt-1 text-sm text-slate-500">
-          Masukkan kata sandi panitia untuk melihat hasil.
-        </p>
-        <input
-          type="password"
-          value={password}
-          onChange={(event) => setPassword(event.target.value)}
-          placeholder="Kata sandi"
-          autoFocus
-          className="mt-6 w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 outline-none focus:border-slate-800"
-        />
-        {error ? <p className="mt-3 text-sm text-red-600">{error}</p> : null}
-        <button
-          type="submit"
-          disabled={loading}
-          className="mt-4 w-full rounded-lg bg-[#0b2f5e] px-4 py-2.5 font-medium text-white transition-colors hover:bg-[#123f78] disabled:opacity-60"
+    <main className="flex min-h-screen flex-col">
+      <div className="mx-auto flex w-full max-w-6xl items-center px-5 py-5 sm:px-8">
+        <Link href="/" className="flex items-center gap-3">
+          <Mark />
+          <span className="text-[15px] font-semibold leading-tight tracking-[-0.01em]">
+            Peminatan Penempatan 2026
+          </span>
+        </Link>
+      </div>
+
+      <div className="flex flex-1 items-center justify-center px-5 pb-20">
+        <form
+          onSubmit={submit}
+          className="w-full max-w-[380px] rounded-[14px] border border-line bg-surface px-6 py-7"
         >
-          {loading ? "Memeriksa..." : "Masuk"}
-        </button>
-      </form>
+          <h1 className="text-[20px] font-semibold leading-tight tracking-[-0.01em]">
+            Rekap survei
+          </h1>
+          <p className="mt-1.5 text-[13px] leading-relaxed text-muted">
+            Masukkan kata sandi panitia untuk melihat respons yang masuk.
+          </p>
+
+          <label className="mt-6 block">
+            <span className="block text-[13px] font-medium">Kata sandi</span>
+            <input
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              placeholder="Kata sandi panitia"
+              autoFocus
+              className="mt-1.5 w-full rounded-lg border border-line-strong bg-surface px-3 py-2.5 text-[15px] outline-none transition-colors placeholder:text-faint focus:border-accent focus:ring-2 focus:ring-accent/15"
+            />
+          </label>
+
+          {error ? (
+            <p role="alert" className="mt-3 text-[13px] leading-snug text-negative">
+              {error}
+            </p>
+          ) : null}
+
+          <button
+            type="submit"
+            disabled={loading}
+            className="mt-5 h-10 w-full rounded-lg bg-accent text-sm font-semibold text-white transition-colors hover:bg-[#0d3557] disabled:opacity-50"
+          >
+            {loading ? "Memeriksa..." : "Masuk"}
+          </button>
+
+          <Link href="/"
+            className="mt-4 block text-center text-[13px] font-medium text-muted hover:text-ink"
+          >
+            Kembali ke halaman survei
+          </Link>
+        </form>
+      </div>
     </main>
   );
 }

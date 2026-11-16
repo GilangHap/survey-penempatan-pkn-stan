@@ -32,6 +32,7 @@ export const INSTANSI_KL = [
   "Komisi Pemberantasan Korupsi",
   "Sekretariat Jenderal DPR RI",
   "Badan Nasional Pengelola Perbatasan",
+  "Kementerian Keuangan",
 ] as const;
 
 export const ESELON_I = [

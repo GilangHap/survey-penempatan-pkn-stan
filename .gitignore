@@ -42,3 +42,6 @@ next-env.d.ts
 
 # data survei (berisi data pribadi)
 /data
+
+# artefak inspeksi browser
+/.playwright-mcp

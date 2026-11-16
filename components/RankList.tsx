@@ -52,7 +52,7 @@ export default function RankList({ items, onChange }: Props) {
       onDragEnd={handleDragEnd}
     >
       <SortableContext items={items} strategy={verticalListSortingStrategy}>
-        <ol className="space-y-1.5">
+        <ol className="overflow-hidden rounded-[10px] border border-line bg-surface">
           {items.map((item, index) => (
             <SortableRow
               key={item}
@@ -91,45 +91,51 @@ function SortableRow({
           : undefined,
         transition,
       }}
-      className={`flex items-center gap-3 rounded-lg border bg-white px-3 py-2 ${
+      className={`flex items-center gap-2 border-b border-line bg-surface px-3 last:border-0 sm:gap-3 sm:px-4 ${
         isDragging
-          ? "z-10 border-[#0b2f5e] shadow-lg"
-          : "border-slate-200 shadow-sm"
+          ? "relative z-20 shadow-[0_12px_28px_rgba(23,26,30,0.14)] ring-1 ring-accent/25"
+          : ""
       }`}
     >
-      <span className="w-7 shrink-0 text-center text-xs font-semibold tabular-nums text-slate-400">
+      <span
+        className={`w-6 shrink-0 text-[13px] tabular-nums ${
+          index < 3 ? "font-semibold text-ink" : "text-muted"
+        }`}
+      >
         {index + 1}
       </span>
-      <span className="flex-1 text-sm leading-snug text-slate-800">{id}</span>
-      <span className="flex shrink-0 items-center gap-0.5">
+      <span className="flex-1 py-3 text-[14px] leading-snug sm:text-[15px]">{id}</span>
+      <span className="flex shrink-0 items-center">
         <IconButton
           label={`Naikkan ${id}`}
           disabled={index === 0}
           onClick={() => onMove(index, -1)}
+          className="hidden sm:flex"
         >
-          <path d="M6 14l6-6 6 6" />
+          <path d="M6 14.5l6-6 6 6" />
         </IconButton>
         <IconButton
           label={`Turunkan ${id}`}
           disabled={index === total - 1}
           onClick={() => onMove(index, 1)}
+          className="hidden sm:flex"
         >
-          <path d="M6 10l6 6 6-6" />
+          <path d="M6 9.5l6 6 6-6" />
         </IconButton>
         <button
           type="button"
           {...attributes}
           {...listeners}
           aria-label={`Geser ${id}`}
-          className="ml-1 flex h-8 w-8 cursor-grab touch-none items-center justify-center rounded-md text-slate-400 hover:bg-slate-100 hover:text-slate-700 active:cursor-grabbing"
+          className="flex h-10 w-9 cursor-grab touch-none items-center justify-center rounded-md text-muted transition-colors hover:bg-ground hover:text-ink active:cursor-grabbing"
         >
           <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
-            <circle cx="8" cy="5" r="1.4" fill="currentColor" />
-            <circle cx="12" cy="5" r="1.4" fill="currentColor" />
-            <circle cx="8" cy="10" r="1.4" fill="currentColor" />
-            <circle cx="12" cy="10" r="1.4" fill="currentColor" />
-            <circle cx="8" cy="15" r="1.4" fill="currentColor" />
-            <circle cx="12" cy="15" r="1.4" fill="currentColor" />
+            <circle cx="8" cy="5" r="1.35" fill="currentColor" />
+            <circle cx="12" cy="5" r="1.35" fill="currentColor" />
+            <circle cx="8" cy="10" r="1.35" fill="currentColor" />
+            <circle cx="12" cy="10" r="1.35" fill="currentColor" />
+            <circle cx="8" cy="15" r="1.35" fill="currentColor" />
+            <circle cx="12" cy="15" r="1.35" fill="currentColor" />
           </svg>
         </button>
       </span>
@@ -141,11 +147,13 @@ function IconButton({
   label,
   disabled,
   onClick,
+  className = "",
   children,
 }: {
   label: string;
   disabled: boolean;
   onClick: () => void;
+  className?: string;
   children: React.ReactNode;
 }) {
   return (
@@ -154,13 +162,13 @@ function IconButton({
       aria-label={label}
       disabled={disabled}
       onClick={onClick}
-      className="flex h-8 w-8 items-center justify-center rounded-md text-slate-400 hover:bg-slate-100 hover:text-slate-700 disabled:opacity-30 disabled:hover:bg-transparent"
+      className={`h-10 w-8 items-center justify-center rounded-md text-muted transition-colors hover:bg-ground hover:text-ink disabled:opacity-25 disabled:hover:bg-transparent ${className}`}
     >
       <svg
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        strokeWidth="2"
+        strokeWidth="1.8"
         strokeLinecap="round"
         strokeLinejoin="round"
         className="h-4 w-4"
