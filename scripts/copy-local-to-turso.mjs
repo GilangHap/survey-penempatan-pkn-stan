@@ -25,7 +25,8 @@ for (const row of rows) {
           row.domisili, row.asal, row.rank_kl, row.rank_eselon, row.rating, row.saran,
         ],
       });
-      result.rowsAffected > 0 ? saved++ : skipped++;
+      if (result.rowsAffected > 0) saved++;
+      else skipped++;
       break;
     } catch (error) {
       if (attempt === 5) {

@@ -76,12 +76,16 @@ const btnSecondary =
   "inline-flex items-center justify-center rounded-lg border border-line-strong bg-surface px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:bg-ground disabled:opacity-50";
 const btnGhost = "whitespace-nowrap text-[13px] font-medium text-accent hover:underline";
 
+const COACH_KEYS = { kl: "survei-coach-kl", es: "survei-coach-es" } as const;
+type CoachKind = "kl" | "es";
+
 export default function SurveyWizard() {
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<FormState>(loadDraft);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
+  const [coach, setCoach] = useState<CoachKind | null>(null);
 
   useEffect(() => {
     if (done) return;
@@ -117,7 +121,24 @@ export default function SurveyWizard() {
     }
     setError("");
     setStep(target);
+    setCoach(
+      target === 2 && !localStorage.getItem(COACH_KEYS.kl)
+        ? "kl"
+        : target === 3 && !localStorage.getItem(COACH_KEYS.es)
+          ? "es"
+          : null,
+    );
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function dismissCoach(kind: "kl" | "es") {
+    localStorage.setItem(COACH_KEYS[kind], "1");
+    setCoach(null);
+  }
+
+  function handleRankChange(key: "rankKl" | "rankEselon", items: string[]) {
+    update(key, items);
+    dismissCoach(key === "rankKl" ? "kl" : "es");
   }
 
   function resetRank(key: "rankKl" | "rankEselon") {
@@ -373,22 +394,31 @@ export default function SurveyWizard() {
               <div>
                 <StepTitle
                   title="Peminatan instansi penempatan"
-                  description={`Seret kartu atau gunakan tombol panah untuk mengurutkan ${INSTANSI_KL.length} instansi berikut sesuai prioritas Anda. Posisi 1 adalah prioritas tertinggi.`}
+                  description={`Urutkan ${INSTANSI_KL.length} instansi berikut sesuai prioritas Anda. Posisi 1 adalah prioritas tertinggi.`}
                 />
+                {coach === "kl" ? <Coach onDismiss={() => dismissCoach("kl")} /> : null}
                 <div className="mt-5 flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
                   <p className="text-xs text-muted tabular-nums">
                     {INSTANSI_KL.length} instansi · urut menurun
                   </p>
-                  <button
-                    type="button"
-                    onClick={() => resetRank("rankKl")}
-                    className={btnGhost}
-                  >
-                    Kembalikan urutan awal
-                  </button>
+                  <div className="flex items-center gap-4">
+                    <button type="button" onClick={() => setCoach("kl")} className={btnGhost}>
+                      Panduan
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => resetRank("rankKl")}
+                      className={btnGhost}
+                    >
+                      Kembalikan urutan awal
+                    </button>
+                  </div>
                 </div>
                 <div className="mt-2">
-                  <RankList items={form.rankKl} onChange={(items) => update("rankKl", items)} />
+                  <RankList
+                    items={form.rankKl}
+                    onChange={(items) => handleRankChange("rankKl", items)}
+                  />
                 </div>
               </div>
             )}
@@ -399,22 +429,28 @@ export default function SurveyWizard() {
                   title="Peminatan unit eselon I Kemenkeu"
                   description={`Urutkan ${ESELON_I.length} unit eselon I berikut sesuai prioritas Anda. Posisi 1 adalah prioritas tertinggi.`}
                 />
+                {coach === "es" ? <Coach onDismiss={() => dismissCoach("es")} /> : null}
                 <div className="mt-5 flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
                   <p className="text-xs text-muted tabular-nums">
                     {ESELON_I.length} unit · urut menurun
                   </p>
-                  <button
-                    type="button"
-                    onClick={() => resetRank("rankEselon")}
-                    className={btnGhost}
-                  >
-                    Kembalikan urutan awal
-                  </button>
+                  <div className="flex items-center gap-4">
+                    <button type="button" onClick={() => setCoach("es")} className={btnGhost}>
+                      Panduan
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => resetRank("rankEselon")}
+                      className={btnGhost}
+                    >
+                      Kembalikan urutan awal
+                    </button>
+                  </div>
                 </div>
                 <div className="mt-2">
                   <RankList
                     items={form.rankEselon}
-                    onChange={(items) => update("rankEselon", items)}
+                    onChange={(items) => handleRankChange("rankEselon", items)}
                   />
                 </div>
               </div>
@@ -530,6 +566,48 @@ export default function SurveyWizard() {
         </section>
       </main>
     </Shell>
+  );
+}
+
+function Coach({ onDismiss }: { onDismiss: () => void }) {
+  return (
+    <div
+      role="note"
+      className="mt-5 flex items-start gap-3 rounded-[10px] border border-accent/25 bg-accent-soft/70 px-4 py-3.5"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="mt-0.5 h-6 w-6 shrink-0 text-accent"
+        aria-hidden="true"
+      >
+        <rect x="3" y="3" width="12" height="7" rx="1.5" />
+        <rect x="3" y="14" width="12" height="7" rx="1.5" />
+        <path d="M20 6v12M20 6l-2.2 2.2M20 6l2.2 2.2M20 18l-2.2-2.2M20 18l2.2-2.2" />
+      </svg>
+      <div className="min-w-0 flex-1">
+        <p className="text-[13.5px] font-semibold text-ink">Cara mengurutkan peminatan</p>
+        <ol className="mt-1 space-y-1 text-[13px] leading-relaxed text-muted">
+          <li>
+            Tahan dan seret gagang enam titik di ujung kanan kartu ke posisi yang Anda
+            inginkan.
+          </li>
+          <li>Di komputer, tombol panah atas/bawah juga bisa dipakai untuk geser satu posisi.</li>
+          <li>Nomor di kiri menunjukkan prioritas — pastikan pilihan utama Anda di posisi 1.</li>
+        </ol>
+        <button
+          type="button"
+          onClick={onDismiss}
+          className="mt-2.5 h-8 rounded-md bg-accent px-3.5 text-xs font-semibold text-white transition-colors hover:bg-[#0d3557]"
+        >
+          Mengerti
+        </button>
+      </div>
+    </div>
   );
 }
 

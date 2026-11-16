@@ -5,6 +5,7 @@ export const PRODI = [
 ] as const;
 
 export const INSTANSI_KL = [
+  "Kementerian Keuangan",
   "Kementerian Koordinator Bidang Hukum, HAM, Imigrasi dan Pemasyarakatan",
   "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
   "Kementerian Koordinator Bidang Pemberdayaan Masyarakat",
@@ -32,7 +33,6 @@ export const INSTANSI_KL = [
   "Komisi Pemberantasan Korupsi",
   "Sekretariat Jenderal DPR RI",
   "Badan Nasional Pengelola Perbatasan",
-  "Kementerian Keuangan",
 ] as const;
 
 export const ESELON_I = [
