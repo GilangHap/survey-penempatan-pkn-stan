@@ -16,10 +16,29 @@ function db(): Client {
   return client;
 }
 
+// ponytail: retry 6x (total ~8 dtk) hanya untuk 429/503 — cukup untuk ledakan
+// submit; kalau Turso sering 429 di beban normal, naikkan pak Turso.
+async function withRetry<T>(operation: () => Promise<T>): Promise<T> {
+  let lastError: unknown;
+  for (let attempt = 0; attempt < 6; attempt++) {
+    try {
+      return await operation();
+    } catch (error) {
+      lastError = error;
+      const status =
+        (error as { status?: number }).status ??
+        (error as { cause?: { status?: number } }).cause?.status;
+      if (status !== 429 && status !== 503) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 250 * 2 ** attempt + Math.random() * 250));
+    }
+  }
+  throw lastError;
+}
+
 async function ensureSchema() {
   if (!schemaReady) {
-    schemaReady = db()
-      .execute(
+    schemaReady = withRetry(() =>
+      db().execute(
         `CREATE TABLE IF NOT EXISTS submissions (
           id TEXT PRIMARY KEY,
           submitted_at TEXT NOT NULL,
@@ -33,8 +52,8 @@ async function ensureSchema() {
           rating INTEGER NOT NULL,
           saran TEXT NOT NULL
         )`,
-      )
-      .then(() => undefined);
+      ),
+    ).then(() => undefined);
   }
   return schemaReady;
 }
@@ -59,8 +78,8 @@ function rowToSubmission(row: Row): Submission {
 
 export async function listSubmissions(): Promise<Submission[]> {
   await ensureSchema();
-  const result = await db().execute(
-    "SELECT * FROM submissions ORDER BY submitted_at",
+  const result = await withRetry(() =>
+    db().execute("SELECT * FROM submissions ORDER BY submitted_at"),
   );
   return result.rows.map((row) => rowToSubmission(row as unknown as Row));
 }
@@ -69,25 +88,27 @@ export async function saveSubmission(
   submission: Submission,
 ): Promise<"saved" | "duplicate"> {
   await ensureSchema();
-  const result = await db().execute({
-    sql: `INSERT INTO submissions
-          (id, submitted_at, npm, nama, prodi, domisili, asal, rank_kl, rank_eselon, rating, saran)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-          ON CONFLICT(npm) DO NOTHING
-          RETURNING id`,
-    args: [
-      submission.id,
-      submission.submittedAt,
-      submission.npm,
-      submission.nama,
-      submission.prodi,
-      submission.domisili,
-      submission.asal,
-      JSON.stringify(submission.rankKl),
-      JSON.stringify(submission.rankEselon),
-      submission.rating,
-      submission.saran,
-    ],
-  });
+  const result = await withRetry(() =>
+    db().execute({
+      sql: `INSERT INTO submissions
+            (id, submitted_at, npm, nama, prodi, domisili, asal, rank_kl, rank_eselon, rating, saran)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(npm) DO NOTHING
+            RETURNING id`,
+      args: [
+        submission.id,
+        submission.submittedAt,
+        submission.npm,
+        submission.nama,
+        submission.prodi,
+        submission.domisili,
+        submission.asal,
+        JSON.stringify(submission.rankKl),
+        JSON.stringify(submission.rankEselon),
+        submission.rating,
+        submission.saran,
+      ],
+    }),
+  );
   return result.rows.length > 0 ? "saved" : "duplicate";
 }

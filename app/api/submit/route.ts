@@ -36,7 +36,15 @@ export async function POST(request: Request) {
     ...parsed.value,
   };
 
-  const result = await saveSubmission(submission);
+  let result: "saved" | "duplicate";
+  try {
+    result = await saveSubmission(submission);
+  } catch {
+    return NextResponse.json(
+      { error: "Server sedang sibuk. Silakan coba kirim ulang sebentar lagi." },
+      { status: 503 },
+    );
+  }
   if (result === "duplicate") {
     return NextResponse.json(
       { error: "NPM ini sudah pernah mengisi survei." },
